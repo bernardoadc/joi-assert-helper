@@ -1,0 +1,30 @@
+{
+  "name": "joi-error-msg",
+  "version": "1.0.0",
+  "description": "A helper to show Joi errors as nicely formatted strings",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint --fix -f compact --ignore-path .gitignore .",
+    "test": "c8 ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernardoadc/joi-error-msg.git"
+  },
+  "author": "Bernardo A. Dal Corno",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^4.3.3",
+    "c8": "^7.12.0",
+    "chalk": "^5.0.1",
+    "eslint": "^8.23.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-ava": "^13.2.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.1",
+    "joi": "^17.6.1"
+  }
+}
