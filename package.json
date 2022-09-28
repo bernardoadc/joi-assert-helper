@@ -1,6 +1,6 @@
 {
   "name": "joi-error-msg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A helper to show Joi errors as nicely formatted strings",
   "main": "index.js",
   "type": "module",

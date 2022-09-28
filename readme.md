@@ -99,7 +99,7 @@ try {
       Joi.valid('A', 'B', 'C').label('Value')
     ).label('Values')
 
-  l.assert(['D'], schema, '', 'Error checking values!')
+  assert(['D'], schema, '', 'Error checking values!')
 } catch (e) {
   console.error(e)
 }
@@ -111,9 +111,9 @@ Error checking values!
 // multiAssert (titleMsg = '', ...validates)
 // Validate multiple schemas, and throw if any errors
 try {
-  l.multiAssert('Error defining graph!',
-    l.validate('a', Joi.number().integer().required().label('X coordinate')),
-    l.validate('b', Joi.number().integer().required().label('Y coordinate'))
+  multiAssert('Error defining graph!',
+    validate('a', Joi.number().integer().required().label('X coordinate')),
+    validate('b', Joi.number().integer().required().label('Y coordinate'))
   )
 } catch (e) {
   console.error(e)
