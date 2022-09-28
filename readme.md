@@ -155,17 +155,6 @@ import chalk from 'chalk'
 joiMsgConfig({ color: chalk.yellow, titleColor: chalk.red })
 ```
 
-<div style="font-family: monospace; font-size: small">
-<span style="color: red">
-Error: Error defining graph!
-</span>
-<span style="color: yellow">
-
-➤ X coordinate must be a number
-➤ Y coordinate must be a number
-</span>
-</div>
-
 Note that if you already have a Joi error, you could use just the error formatting function:
 
 ```js

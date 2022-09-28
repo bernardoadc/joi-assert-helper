@@ -1,6 +1,6 @@
 {
   "name": "joi-error-msg",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A helper to show Joi errors as nicely formatted strings",
   "main": "index.js",
   "type": "module",
@@ -14,6 +14,13 @@
   },
   "author": "Bernardo A. Dal Corno",
   "license": "MIT",
+  "keywords": [
+    "joi",
+    "validation",
+    "error",
+    "message",
+    "friendly"
+  ],
   "devDependencies": {
     "ava": "^4.3.3",
     "c8": "^7.12.0",
